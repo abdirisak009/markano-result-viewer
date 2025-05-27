@@ -90,14 +90,14 @@ export const studentScores: Record<string, StudentScore> = {
   "134723": { "ASSIGN-1": 13, "ASSIGN-2": 18, "TOTAL": 31 },
   "134096": { "ASSIGN-1": 15, "ASSIGN-2": 18, "TOTAL": 33 },
   
-  // Eighth group (ASSIGN-1 missing)
+  // Eighth group
   "133868": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 20 },
   "133883": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 18 },
   "133965": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 18 },
   "134001": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 18 },
   "132917": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 18 },
   
-  // Ninth group (ASSIGN-1 missing)
+  // Ninth group
   "133331": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 18 },
   "133861": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 17 },
   "133899": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 17 },
@@ -105,7 +105,7 @@ export const studentScores: Record<string, StudentScore> = {
   "133970": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 17 },
   "134197": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 17 },
   
-  // Tenth group (ASSIGN-1 missing)
+  // Tenth group
   "133826": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 17 },
   "133824": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 17 },
   "134212": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 17 },
@@ -115,7 +115,7 @@ export const studentScores: Record<string, StudentScore> = {
   "134674": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 17 },
   "134185": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 17 },
   
-  // Eleventh group (ASSIGN-1 missing)
+  // Eleventh group
   "133852": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 10 },
   "134765": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 10 },
   "134006": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 10 },
@@ -123,7 +123,7 @@ export const studentScores: Record<string, StudentScore> = {
   "134686": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 10 },
   "133934": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 10 },
   
-  // Twelfth group (ASSIGN-1 missing)
+  // Twelfth group
   "134101": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 10 },
   "134272": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 10 },
   "135568": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 10 },
@@ -131,11 +131,130 @@ export const studentScores: Record<string, StudentScore> = {
   "134697": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 10 },
   "136116": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 10 },
   
-  // Final group (ASSIGN-1 missing)
+  // Thirteenth group
   "134138": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 10 },
   "134121": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 10 },
   "135549": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 10 },
-  "133851": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 10 }
+  "133851": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 10 },
+
+  // Additional students - Group 1
+  "133300": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133458": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133958": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133278": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133584": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133286": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133342": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133289": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133956": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133358": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133489": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133241": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133322": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133433": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133597": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133473": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133621": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133992": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "136590": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133204": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133466": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133297": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133267": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133720": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133408": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 2
+  "134201": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133254": { "ASSIGN-1": 0, "ASSIGN-2": 11, "TOTAL": 11 },
+  "133517": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133374": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "136115": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133456": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133345": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133310": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133296": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133653": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133429": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 3
+  "133637": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "134168": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133447": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134710": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134291": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134112": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 4
+  "133523": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133806": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134514": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133673": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134388": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 5
+  "134500": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "130673": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "1340": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134319": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133831": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134156": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 6
+  "134079": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133624": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134454": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134385": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134419": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "135894": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134703": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 7
+  "133752": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "134222": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 8
+  "133516": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133740": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134570": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133448": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133333": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134014": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "134667": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 9
+  "133349": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133200": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133700": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133464": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133405": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "137621": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 10
+  "133689": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133759": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "136998": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "130516": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133261": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 11
+  "133361": { "ASSIGN-1": 0, "ASSIGN-2": 15, "TOTAL": 15 },
+  "133535": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133240": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "133306": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+  "135745": { "ASSIGN-1": 0, "ASSIGN-2": 13, "TOTAL": 13 },
+
+  // Additional students - Group 12 (All zeros)
+  "134175": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "134226": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "134200": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "134131": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "134309": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "133847": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "134312": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "134218": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "134619": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 },
+  "134077": { "ASSIGN-1": 0, "ASSIGN-2": 0, "TOTAL": 0 }
 };
 
 export const getStudentScore = (studentId: string): StudentScore | null => {
