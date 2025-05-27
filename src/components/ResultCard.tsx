@@ -16,9 +16,9 @@ const ResultCard: React.FC<ResultCardProps> = ({ studentId, scores }) => {
   };
 
   const getGradeFromTotal = (total: number) => {
-    if (total >= 56) return 'A'; // 80% of 70
-    if (total >= 42) return 'B'; // 60% of 70
-    if (total >= 28) return 'C'; // 40% of 70
+    if (total >= 28) return 'A'; // 80% of 35
+    if (total >= 21) return 'B'; // 60% of 35
+    if (total >= 14) return 'C'; // 40% of 35
     return 'D';
   };
 
@@ -43,10 +43,10 @@ const ResultCard: React.FC<ResultCardProps> = ({ studentId, scores }) => {
           <div className="flex justify-between items-center p-4 bg-gray-700/30 rounded-xl border border-gray-600/30">
             <span className="text-gray-300 font-medium">Assignment 1</span>
             <div className="text-right">
-              <span className={`text-2xl font-bold ${getScoreColor(scores['ASSIGN-1'], 35)}`}>
+              <span className={`text-2xl font-bold ${getScoreColor(scores['ASSIGN-1'], 15)}`}>
                 {scores['ASSIGN-1']}
               </span>
-              <span className="text-gray-400 text-sm ml-1">/35</span>
+              <span className="text-gray-400 text-sm ml-1">/15</span>
             </div>
           </div>
 
@@ -54,10 +54,10 @@ const ResultCard: React.FC<ResultCardProps> = ({ studentId, scores }) => {
           <div className="flex justify-between items-center p-4 bg-gray-700/30 rounded-xl border border-gray-600/30">
             <span className="text-gray-300 font-medium">Assignment 2</span>
             <div className="text-right">
-              <span className={`text-2xl font-bold ${getScoreColor(scores['ASSIGN-2'], 35)}`}>
+              <span className={`text-2xl font-bold ${getScoreColor(scores['ASSIGN-2'], 20)}`}>
                 {scores['ASSIGN-2']}
               </span>
-              <span className="text-gray-400 text-sm ml-1">/35</span>
+              <span className="text-gray-400 text-sm ml-1">/20</span>
             </div>
           </div>
 
@@ -65,10 +65,10 @@ const ResultCard: React.FC<ResultCardProps> = ({ studentId, scores }) => {
           <div className="flex justify-between items-center p-6 bg-gradient-to-r from-markano-green/10 to-markano-green/5 rounded-xl border-2 border-markano-green/30">
             <span className="text-white font-semibold text-lg">Total Score</span>
             <div className="text-right">
-              <span className={`text-3xl font-black ${getScoreColor(scores.TOTAL, 70)}`}>
+              <span className={`text-3xl font-black ${getScoreColor(scores.TOTAL, 35)}`}>
                 {scores.TOTAL}
               </span>
-              <span className="text-gray-400 text-sm ml-1">/70</span>
+              <span className="text-gray-400 text-sm ml-1">/35</span>
             </div>
           </div>
         </div>
@@ -87,12 +87,12 @@ const ResultCard: React.FC<ResultCardProps> = ({ studentId, scores }) => {
         <div className="mt-6">
           <div className="flex justify-between text-sm text-gray-400 mb-2">
             <span>Performance</span>
-            <span>{Math.round((scores.TOTAL / 70) * 100)}%</span>
+            <span>{Math.round((scores.TOTAL / 35) * 100)}%</span>
           </div>
           <div className="w-full bg-gray-700 rounded-full h-3 overflow-hidden">
             <div 
               className="h-full bg-gradient-to-r from-markano-green to-markano-green/80 rounded-full transition-all duration-1000 ease-out"
-              style={{ width: `${(scores.TOTAL / 70) * 100}%` }}
+              style={{ width: `${(scores.TOTAL / 35) * 100}%` }}
             ></div>
           </div>
         </div>
